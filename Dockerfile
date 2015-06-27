@@ -11,3 +11,5 @@ RUN apt-get update -qq && \
 CMD ["/home/app/run.sh"]
 
 COPY src /home/app/
+
+WORKDIR /home/app
