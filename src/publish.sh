@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# expect that $1 is a valid json string
 body=$1
 
 amqp-publish \
